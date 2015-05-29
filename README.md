@@ -17,19 +17,19 @@ getTwitterLoginCheck();
 -> Twitter Login State Check
 <BR>
 example: 
-
+```
 		if (TwitterLogin.getTwitterLoginCheck() != false) {
 			twitterLoginBtn.setText("Twitter Write");
 			twitterLogoutBtn.setVisibility(View.VISIBLE);
 		} 
+```
 
 getTwitterUserData();
 <BR>
 -> Twitter User Data
 <BR>
 example: 
-
-
+```
 		new TwitterLogin.getTwitterUserData().doRunExecute(TwitterWriteActivity.this, 
 			new TwitterUserTaskFunction() {
 			@Override
@@ -37,14 +37,14 @@ example:
   			Log.e("userData", result.toString());
 			}
 		});
-	
+```
 
 updateTwitterStatus();
 <BR>
 -> Post Tweet
 <BR>
 example:
-
+```	
 		twitterWriteBtn.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -68,24 +68,27 @@ example:
 				});
 			}
 		});
+```	
 
 saveAccessToken();
 <BR>
 -> Twitter Auto Login SharedPreferences Save
 <BR>
 example:
-
+```	
 		TwitterLogin twitterLogin = new TwitterLogin(TwitterWriteActivity.this);
 		twitterLogin.saveAccessToken();
-
+```	
 removeAccessToken();
 <BR>
 -> Twitter Logout SharedPreferences Remove
 <BR>
 example:
-
+```	
 		TwitterLogin twitterLogin = new TwitterLogin(MainActivity.this);
 		twitterLogin.removeAccessToken();
+```	
 
 # Preview
-<img src="https://s3-ap-northeast-1.amazonaws.com/smart-jundanji/smart_jundanji_images/1432884662360.png" width=350>
+[[ https://s3-ap-northeast-1.amazonaws.com/smart-jundanji/smart_jundanji_images/1432884662360.png | width = 350px ]]
+
