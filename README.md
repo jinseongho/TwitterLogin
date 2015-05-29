@@ -1,5 +1,5 @@
 # TwitterLogin
-Twitter Login Example
+Twitter Login Example for Android
 
 # Preview
 ![screenshot](http://cfile23.uf.tistory.com/image/2318394255682AAC30E65B)
