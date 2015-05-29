@@ -3,12 +3,15 @@ Twitter Login Example
 
 # How Use
 setTwitterLogin();
+<BR>
 -> Twitter Login oAuth
 
 getTwitterLoginCheck();
+<BR>
 -> Twitter Login State Check
 
 getTwitterUserData();
+<BR>
 -> Twitter User Data
 <BR>
 example : 
@@ -23,7 +26,9 @@ example :
 		});
 
 saveAccessToken();
+<BR>
 -> Twitter Auto Login SharedPreferences Save
 
 removeAccessToken();
+<BR>
 -> Twitter Logout SharedPreferences Remove
