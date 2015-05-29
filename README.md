@@ -5,6 +5,12 @@ Twitter Login Example
 setTwitterLogin();
 <BR>
 -> Twitter Login oAuth
+<BR>
+exmple:
+
+		TwitterLogin twitterLogin = new TwitterLogin(MainActivity.this);
+		twitterLogin.setTwitterLogin();
+	
 
 getTwitterLoginCheck();
 <BR>
