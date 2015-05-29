@@ -7,7 +7,7 @@ setTwitterLogin();
 -> Twitter Login oAuth
 <BR>
 exmple:
-``` ruby	
+``` java	
 	TwitterLogin twitterLogin = new TwitterLogin(MainActivity.this);
 	twitterLogin.setTwitterLogin();
 ```	
