@@ -13,7 +13,8 @@ getTwitterUserData();
 example : 
 
 
-			new TwitterLogin.getTwitterUserData().doRunExecute(TwitterWriteActivity.this, new 		TwitterUserTaskFunction() {
+			new TwitterLogin.getTwitterUserData().doRunExecute(TwitterWriteActivity.this, 
+			new TwitterUserTaskFunction() {
 			@Override
 			public void doFinish(User result) {
   			Log.e("userData", result.toString());
