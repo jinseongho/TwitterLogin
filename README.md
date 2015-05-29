@@ -1,6 +1,13 @@
 # TwitterLogin
 Twitter Login Example
 
+# Preview
+![screenshot](http://cfile23.uf.tistory.com/image/2318394255682AAC30E65B)
+![screenshot](http://cfile4.uf.tistory.com/image/253CFC3A55682C0D2AC613)
+<BR>
+![screenshot](http://cfile22.uf.tistory.com/image/250C814255682AA9351BF0)
+![screenshot](http://cfile27.uf.tistory.com/image/277B914255682AA84095AF)
+
 # How Use
 setTwitterLogin();
 <BR>
@@ -89,6 +96,6 @@ example:
 		twitterLogin.removeAccessToken();
 ```	
 
-# Preview
-![ScreenShot](https://s3-ap-northeast-1.amazonaws.com/smart-jundanji/smart_jundanji_images/1432884662360.png)
+
+
 
