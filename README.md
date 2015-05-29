@@ -86,3 +86,8 @@ example:
 
 		TwitterLogin twitterLogin = new TwitterLogin(MainActivity.this);
 		twitterLogin.removeAccessToken();
+
+# Preview
+<iframe src="http://smartjundanji.com/ingeni/19" style="height:400px">
+  <p>Your browser does not support iframes.</p>
+</iframe>
