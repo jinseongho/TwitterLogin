@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF0000</color>
+    <color name="white_alpha">#F8F5E4</color>
+    <color name="background">#F0F0F0</color>
+    <color name="default_color">#5B5857</color>
+    <color name="title_bar">#54C7EE</color>
+    <color name="facebook">#537BBC</color>
+    <color name="twitter">#78CBEF</color>
+    <color name="hint_font">#969696</color>
+    <color name="default_font">#323232</color>
+</resources>
