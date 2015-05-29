@@ -88,6 +88,4 @@ example:
 		twitterLogin.removeAccessToken();
 
 # Preview
-<iframe src="http://smartjundanji.com/ingeni/19" style="height:400px">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+<img src="https://s3-ap-northeast-1.amazonaws.com/smart-jundanji/smart_jundanji_images/1432884662360.png" width=350>
