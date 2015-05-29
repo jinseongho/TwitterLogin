@@ -90,5 +90,5 @@ example:
 ```	
 
 # Preview
-[[ https://s3-ap-northeast-1.amazonaws.com/smart-jundanji/smart_jundanji_images/1432884662360.png | width = 350px ]]
+![ScreenShot](https://s3-ap-northeast-1.amazonaws.com/smart-jundanji/smart_jundanji_images/1432884662360.png)
 
