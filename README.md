@@ -15,12 +15,19 @@ exmple:
 getTwitterLoginCheck();
 <BR>
 -> Twitter Login State Check
+<BR>
+example: 
+
+		if (TwitterLogin.getTwitterLoginCheck() != false) {
+			twitterLoginBtn.setText("Twitter Write");
+			twitterLogoutBtn.setVisibility(View.VISIBLE);
+		} 
 
 getTwitterUserData();
 <BR>
 -> Twitter User Data
 <BR>
-example : 
+example: 
 
 
 		new TwitterLogin.getTwitterUserData().doRunExecute(TwitterWriteActivity.this, 
@@ -36,7 +43,7 @@ updateTwitterStatus();
 <BR>
 -> Post Tweet
 <BR>
-example :
+example:
 
 		twitterWriteBtn.setOnClickListener(new OnClickListener() {
 			
@@ -65,7 +72,17 @@ example :
 saveAccessToken();
 <BR>
 -> Twitter Auto Login SharedPreferences Save
+<BR>
+example:
+
+		TwitterLogin twitterLogin = new TwitterLogin(TwitterWriteActivity.this);
+		twitterLogin.saveAccessToken();
 
 removeAccessToken();
 <BR>
 -> Twitter Logout SharedPreferences Remove
+<BR>
+example:
+
+		TwitterLogin twitterLogin = new TwitterLogin(MainActivity.this);
+		twitterLogin.removeAccessToken();
